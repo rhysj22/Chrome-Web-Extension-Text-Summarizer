@@ -1,5 +1,5 @@
 // Define the global API key constant
-const OPEN_AI_API_KEY = "sk-proj-64e0o0PoZBIlpFBQZp77T3BlbkFJvSf0b6FuqVLREoFHJ4Ve";
+const OPEN_AI_API_KEY = "YOUR OPENAI API KEY HERE";
 
 // Create the context menu item
 chrome.contextMenus.create({
