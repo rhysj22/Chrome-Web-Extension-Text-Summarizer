@@ -1,0 +1,25 @@
+{
+    "name": "SummarEase",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This extension will summarize any highlighted text on a webpage using the OpenAI api",
+    "permissions": [
+      "contextMenus",
+      "activeTab",
+      "tabs",
+      "notifications"
+    ],
+    "host_permissions": [
+      "https://api.openai.com/*"
+    ],
+    "icons": {
+      "16": "clonetrooperhelmet.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+  }
+  
