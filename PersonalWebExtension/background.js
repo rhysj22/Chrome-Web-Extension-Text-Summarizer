@@ -57,7 +57,7 @@ function summarizeSelection(info, tab) {
             // Display notification with summary text
             chrome.notifications.create({
                 type: 'basic',
-                iconUrl: 'clonetrooperhelmet.png',
+                iconUrl: 'RobotIcon.png',
                 title: 'Summary Of Highlighted Text',
                 message: summaryText,
                 buttons: [{ title: 'View Full Message' }]

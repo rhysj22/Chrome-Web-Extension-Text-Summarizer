@@ -13,7 +13,7 @@
       "https://api.openai.com/*"
     ],
     "icons": {
-      "16": "clonetrooperhelmet.png"
+      "16": "RobotIcon.png"
     },
     "background": {
       "service_worker": "background.js"
